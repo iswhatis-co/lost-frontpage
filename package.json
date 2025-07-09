@@ -1,0 +1,12 @@
+{
+  "name": "lost-frontpage",
+  "version": "1.0.0",
+  "description": "Cassie Henderson landing page",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
