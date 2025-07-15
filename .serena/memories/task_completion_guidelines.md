@@ -1,0 +1,1 @@
+After making changes, open index-new.html in a browser to verify the animation and appearance. No automated tests or linters are required. Manual visual inspection is the main check for correctness.

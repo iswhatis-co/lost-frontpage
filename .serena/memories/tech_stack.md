@@ -1,0 +1,1 @@
+The project uses static HTML, CSS, and SVG for the front page animation. There is no frontend framework; all animation is handled via SVG and CSS. Node.js is present (server.js, package.json), but the main animation is static and client-side.

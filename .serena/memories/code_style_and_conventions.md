@@ -1,0 +1,6 @@
+- SVG paths and masks are used for animation.
+- Naming convention: mask ids are 'spray-mask-<segment>', and path ids are 'star-1', 'star-2', ..., 'letter-c', etc.
+- Fill color for animated paths is '#111' (HTML) or 'black' (SVG source).
+- Each path is masked with the corresponding spray mask.
+- HTML and SVG are indented with 2 spaces.
+- No JavaScript is used for the animation; all is declarative SVG.

@@ -1,0 +1,1 @@
+This project is a front page or landing page for the CH logo, featuring an animated SVG spray effect that reveals different segments of the logo over time. The animation is implemented using SVG masks and paths, with timing and effects controlled via SVG `<animate>` elements. The project is primarily static HTML/CSS/JS with SVG assets.

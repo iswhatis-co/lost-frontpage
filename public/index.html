@@ -12,7 +12,6 @@
             background-size: cover;
             min-height: 100vh;
         }
-
         .poster {
             position: fixed;
             width: 90vw;
@@ -22,7 +21,6 @@
             left: 47vw;
             transform: none;
         }
-
         @media (max-width: 700px) {
             body {
                 background-position: 65% 99%;
@@ -42,20 +40,15 @@
                 height: 6%;
             }
         }
-
         .poster img {
             width: 100%;
             height: auto;
             display: block;
         }
-
         .clickable-area {
             position: absolute;
             cursor: pointer;
-            /* border: 2px solid red;  */
         }
-
-        /* Adjust these percentages to match your poster layout */
         .tab1 { top: 60%; left: 4%; width: 11%; height: 30%; }
         .tab2 { top: 60%; left: 18%; width: 11%; height: 30%; }
         .tab3 { top: 60%; left: 31%; width: 11%; height: 30%; }
@@ -67,6 +60,7 @@
     </style>
 </head>
 <body>
+    <img src="starbolt-spray.gif" alt="Starbolt Spray Logo" style="position: fixed; left: 8vw; top: 50%; transform: translateY(-50%); width: 550px; height: auto; pointer-events: none; z-index: 1;" />
     <div class="poster">
         <img src="lost-poster.png" alt="Lost Poster">
         <a href="https://cassiehenderson.com/merch" class="clickable-area tab1"></a>
@@ -78,5 +72,13 @@
         <a href="https://cassiehenderson.com/contact-1" class="clickable-area tab7"></a>
     </div>
     <a href="https://laylo.com/cassiehenderson/bluechapter" class="clickable-area tab8"></a>
+    <script>
+      // Force reload of the Starbolt Spray Logo GIF by appending a cache-busting timestamp
+      const logo = document.querySelector('img[alt="Starbolt Spray Logo"]');
+      if (logo) {
+        const baseSrc = 'starbolt-spray.gif';
+        logo.src = baseSrc + '?cb=' + Date.now();
+      }
+    </script>
 </body>
 </html>

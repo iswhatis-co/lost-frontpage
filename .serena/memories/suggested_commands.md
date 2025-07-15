@@ -1,0 +1,4 @@
+- To run the server (if needed): `node server.js`
+- To view the animation: open index-new.html in a browser
+- No build or test commands are required for the static front page
+- Use standard git commands for version control: `git status`, `git add`, `git commit`, `git push`, etc.
